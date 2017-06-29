@@ -1,0 +1,18 @@
+import nltk
+
+def Main():
+    a = NewFunc(25)
+    print(a)
+    IAmSmart()
+    return 0
+
+def NewFunc(a):
+    a += 15
+    return a
+
+def IAmSmart():
+    print("that's true!")
+    return 0
+
+if __name__ == "__main__":
+    Main()
