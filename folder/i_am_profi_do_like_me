@@ -12,7 +12,13 @@ def NewFunc(a):
 
 def IAmSmart():
     print("that's true!")
-    return 0
+    for i in range(0, 10):
+        for j in range(-20, 1):
+            for k in range(-25, 1):
+                print(i, j, k)
+                if i == j == k:
+                    print("Ура!")
+                    return 0
 
 if __name__ == "__main__":
     Main()
