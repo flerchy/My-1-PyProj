@@ -1,11 +1,13 @@
 #import math
 
-class Vect:
+
+
+class vect:
     x = 0
     y = 0
 
     def Multiply(self, v):
-        v2 = Vect(0, 0)
+      v2 = vect(0, 0)
         v2.x = v.x * self.x
         v2.y = v.y * self.y
         return v2
@@ -14,12 +16,12 @@ class Vect:
         self.x = x
         self.y = y
 
-class Dot:
+class dot:
     x = 0
     y = 0
 
     def Add(self, d):
-        d2 = Dot(0, 0)
+        d2 = dot(0, 0)
         d2.x = d.x + self.x
         d2.y = d.y + self.y
         return d2
@@ -29,13 +31,13 @@ class Dot:
         self.y = y
 
 def VectorOperations():
-    a = Vect(2, 4)
-    b = Vect(5, 2)
+    a = vect(2, 4)
+    b = vect(5, 2)
     return a.Multiply(b)
 
 def DotOperations():
-    a = Dot(2, 4)
-    b = Dot(5, 2)
+    a = dot(2, 4)
+    b = dot(5, 2)
     return a.Add(b)
 
 def Main():

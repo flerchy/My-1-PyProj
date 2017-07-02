@@ -1,24 +1,22 @@
 import re
 
-def my_another_function():
+def MyAnotherFunction():
     Variable = re.compile(r"123")
     print(type(Variable))
     return 0
 
-
-def other_function(value):
+def OtherFunction(value):
     value *= value
     return value
 
-
-def main():
+def Main():
     array = [0, 1, 2, 3, 5, 8]
     for i in array:
         for j in range(1, 5):
             print(i)
-            print(other_function(i))
+            print(OtherFunction(i))
     return 0
 
 
 if __name__ == "__main__":
-    main()
+    Main()
