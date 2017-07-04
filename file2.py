@@ -1,11 +1,13 @@
 #import math
 
+
+
 class vect:
     x = 0
     y = 0
 
     def Multiply(self, v):
-        v2 = vect(0, 0)
+      v2 = vect(0, 0)
         v2.x = v.x * self.x
         v2.y = v.y * self.y
         return v2
