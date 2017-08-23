@@ -5,11 +5,9 @@ def MyAnotherFunction():
     print(type(Variable))
     return 0
 
-
 def OtherFunction(value):
     value *= value
     return value
-
 
 def Main():
     array = [0, 1, 2, 3, 5, 8]
